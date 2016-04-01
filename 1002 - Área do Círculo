@@ -1,0 +1,24 @@
+//MÁRCIO DUTRA - Área do Círculo 
+#include <stdio.h>
+#include <stdlib.h>
+#define pi 3.14159
+
+int main() {
+
+  system("color E9");
+
+	// declaração de variáveis
+    double raio, area;
+    
+	//entrada de dados
+	scanf ("%lf", &raio);
+	
+	// processamento
+	area = pi * raio * raio;
+	
+    // saída
+	printf ("A=%0.4f\n",area);
+ 
+    return 0;
+    system("pause");
+}
